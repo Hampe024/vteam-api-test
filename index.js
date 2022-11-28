@@ -1,13 +1,11 @@
 const express = require("express");
 const fs = require('fs');
-const cors = require("cors");
 
 const app = express();
 const PORT = 8080;
 const db_path = 'my_db.json';
 
 app.use( express.json() )
-app.use( cors() )
 
 let rawdata = fs.readFileSync(db_path);
 let db = JSON.parse(rawdata);
@@ -65,7 +63,7 @@ app.post("/invoice", (req, res) => {
     fs.writeFileSync(db_path, newdb);
 
     res.status(200).send({
-        "msg": "it worked :D"
+        "msg": "it worked!, check for new data in my_db.json"
     })
 })
 

@@ -1,3 +1,5 @@
+// Adds new invoice with data from body
+
 const body = {
     "distTravel": "1000km",
     "cost": "99999kr"

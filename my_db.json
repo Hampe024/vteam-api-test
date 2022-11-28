@@ -20,14 +20,6 @@
         "3": {
             "distTravel": "7km",
             "cost": "150kr"
-        },
-        "4": {
-            "distTravel": "1000km",
-            "cost": "99999kr"
-        },
-        "5": {
-            "distTravel": "1000km",
-            "cost": "99999kr"
         }
     }
 }
