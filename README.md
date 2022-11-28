@@ -1,7 +1,6 @@
 dependencies:
 ```
 npm install express
-npm install cors
 ```
 
 start api with
