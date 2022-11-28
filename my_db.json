@@ -1,0 +1,33 @@
+{
+    "users": {
+        "0": {
+            "name": "Sten Stensson",
+            "invoiceID": [
+                1,
+                3
+            ]
+        }
+    },
+    "invoices": {
+        "1": {
+            "distTravel": "3km",
+            "cost": "90kr"
+        },
+        "2": {
+            "distTravel": "0.5km",
+            "cost": "12kr"
+        },
+        "3": {
+            "distTravel": "7km",
+            "cost": "150kr"
+        },
+        "4": {
+            "distTravel": "1000km",
+            "cost": "99999kr"
+        },
+        "5": {
+            "distTravel": "1000km",
+            "cost": "99999kr"
+        }
+    }
+}
